@@ -1,0 +1,85 @@
+/* List view */
+.list-view .content {
+  display: flex;
+}
+
+.list-view .contact-grid {
+  flex: 2;
+}
+
+.list-view .contact-form {
+  flex: 1;
+  padding: var(--lumo-space-m);
+}
+
+@media all and (max-width: 1100px) {
+  .list-view.editing .toolbar,
+  .list-view.editing .contact-grid {
+    display: none;
+  }
+}
+/* Main layout */
+
+.main-view .content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: center;
+}
+
+
+.main-view .img {
+  object-fit: cover;
+  width: 320px;
+  height: 180px;
+  cursor: pointer;
+}
+
+/* GopchangView */
+
+.food-view .content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-self: center;
+}
+
+
+.food-view .img {
+  object-fit: cover;
+  width: 640px;
+  height: 360px;
+  cursor: pointer;
+  align-self: center;
+}
+
+/* GopchangView */
+
+.recipe-view .content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-self: center;
+  padding-left: 20em;
+}
+
+
+
+
+
+
+/* Main layout */
+
+a[highlight] {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.header {
+  padding: 0 var(--lumo-space-m);
+}
+
+.header h1.logo {
+  font-size: 1em;
+  margin: var(--lumo-space-m);
+}
